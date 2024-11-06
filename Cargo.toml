@@ -16,7 +16,7 @@ members = [
     "opendut-vpn/opendut-vpn-netbird",
     ".ci/xtask",
     ".ci/docker/theo",
-    "tests",
+    "tests", ".ci/docker/edgar/scripts/mqtt",
 ]
 resolver = "2"
 

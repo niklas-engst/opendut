@@ -1,0 +1,13 @@
+[package]
+name = "psu_daemon"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+paho-mqtt = "0.12.5"
+
+[lints]
+workspace = true
